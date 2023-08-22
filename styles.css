@@ -1,0 +1,217 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos da seção "Sobre Mim" */
+#about {
+    background-color: #f4f4f4;
+    padding: 2rem;
+}
+
+/* Estilos da seção "Projetos" */
+#projects {
+    padding: 2rem;
+}
+
+.project {
+    margin-bottom: 1rem;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos da seção "Contato" */
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+}
+
+/* Estilos da seção "Sobre Mim" */
+#about {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.profile-image {
+    max-width: 200px; /* Define a largura máxima da imagem */
+    height: auto; /* Mantém a proporção original */
+    border-radius: 50%; /* Adiciona um canto arredondado à imagem */
+    margin: 0 auto 1rem; /* Centraliza horizontalmente e adiciona margem inferior */
+}
+
+/* Estilos da seção "Contato" */
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.social-buttons {
+    margin-top: 1rem;
+}
+
+.social-buttons a {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-buttons a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background: linear-gradient(to right, #282c3f, #11142a);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #64e4ff;
+}
+
+/* Efeito de rolagem futurista */
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+    z-index: -1;
+    opacity: 0.8;
+}
+/* Estilos para o botão de compra */
+.buy-button {
+    background-color: #64e4ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #4ab6e9;
+    transform: scale(1.05);
+}
+
+/* Estilos para o formulário de contato */
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form textarea {
+    height: 150px;
+}
+
+#contact .submit-button {
+    background-color: #64e4ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#contact .submit-button:hover {
+    background-color: #4ab6e9;
+    transform: scale(1.05);
+}
+
+/* Estilos para os links de redes sociais */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #64e4ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #4ab6e9;
+}
